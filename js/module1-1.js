@@ -8,6 +8,6 @@ base = Number(base)
 // console.log(typeof base);
 let power = prompt('Enter the power');
 power = Number(power)
-let result = Math.pow(base, power);
+const result = Math.pow(base, power);
 console.log(result);
 alert(`Your result is : ${result}`);
